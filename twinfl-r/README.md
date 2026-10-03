@@ -28,4 +28,4 @@ Reduced data exposure is not a formal privacy guarantee, and robustness against 
 
 ## Full manuscript
 
-Available on request: e.elmirakarimpour@gmail.com
+Available on request: elmirakarimpour@outlook.com
