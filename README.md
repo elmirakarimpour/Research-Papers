@@ -21,6 +21,5 @@ Elmira Karimpour, Mehdi Moghimi, Seyedreza Taghizadeh — Shiraz University, Ira
 
 Elmira Karimpour — elmirakarimpour@outlook.com
 
-Phone Number — +989962639187
 
-Please do not cite or redistribute the content of this repository as published work until the papers are accepted.
+These project pages provide research overviews only and should not be considered published manuscripts.
