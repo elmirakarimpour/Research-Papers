@@ -6,7 +6,10 @@
 
 ## Abstract
 
-Insider threats pose a significant challenge to organizational cybersecurity due to the difficulty of distinguishing malicious activities from legitimate user behavior. Unlike conventional intrusion detection approaches that often rely on predefined attack patterns or labeled data, insider threat detection requires models capable of identifying subtle and previously unseen behavioral anomalies. This study proposes an unsupervised framework based on Bidirectional Long Short-Term Memory (BiLSTM) networks and deep clustering to learn meaningful representations of user behavior sequences and identify anomalous activity without relying on predefined attack labels. By combining sequential representation learning with clustering-based anomaly detection, the proposed approach aims to capture complex temporal patterns in user behavior and improve the detection of previously unknown insider threats. The framework is evaluated on user activity data to assess its effectiveness in distinguishing anomalous behaviors from normal activity.
+
+
+Insider threats are particularly challenging to detect because malicious activities can closely resemble legitimate user behavior and may not follow predefined attack patterns. This paper presents an unsupervised approach for insider threat detection that combines Bidirectional Long Short-Term Memory (BiLSTM) networks with deep clustering to model behavioral dependencies and identify deviations from normal activity. The proposed framework learns from unlabeled user activity sequences, enabling the detection of suspicious behavioral patterns without requiring predefined attack categories. Its effectiveness is evaluated on user activity data to assess its ability to distinguish anomalous behavior from normal user activity.
+
 
 ## Introduction
 
