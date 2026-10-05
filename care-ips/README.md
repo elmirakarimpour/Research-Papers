@@ -6,6 +6,12 @@
 
 **Status:** Final evaluation stage.
 
+## Abstract
+
+Multi-agent intrusion detection systems increasingly combine heterogeneous detectors with large language models to improve both detection coverage and interpretability of security decisions. Trustworthy autonomous prevention, however, remains an open problem, since agents that share models, features, or data sources can produce confident agreement that is not truly independent, and language model generated explanations or actions can appear reasonable while being unsupported by the underlying evidence. This paper presents CARE-IPS, a correlation aware, evidence grounded multi agent framework for safe intrusion detection and prevention. Heterogeneous detection agents report calibrated confidence and faithfulness validated evidence, a correlation aware consensus mechanism discounts agreement that is not independently supported, a bounded reasoning agent generates mitigations that cite only validated evidence, and a deterministic safety gate authorizes autonomous action only when evidence sufficiency, independent support, policy compliance, and reversibility are jointly satisfied. Compared with majority voting and existing explainable detection approaches, the proposed framework is designed to reduce unsafe or unnecessary autonomous actions and to lower the rate of undetected coordinated attacks that arise from correlated agent agreement, while preserving detection accuracy comparable to unconstrained baselines.
+
+
+
 ## Introduction
 
 Modern AI-based intrusion detection systems can reach high detection accuracy, and multi-agent and LLM-based systems now add collaborative analysis and human-readable explanations. Letting such systems take *autonomous preventive action* is a different matter: a wrong action can disrupt legitimate services instead of stopping an attack.

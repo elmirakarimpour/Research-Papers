@@ -6,6 +6,9 @@
 
 **Status:** Under review, 6th International Conference on Computing and Machine Intelligence (ICMI) 2027, Mount Pleasant, Michigan, USA.
 
+## Abstract
+
+The rapid proliferation of Internet‑of‑Things (IoT) devices with constrained processing capabilities has exposed new attack surfaces and challenged the viability of centralized intrusion detection systems (IDS). Cloud‑centric models require transmitting raw traffic to a remote server, introducing latency, bandwidth overhead and privacy risks. This paper proposes TwinFL‑R, a lightweight federated learning architecture for IoT intrusion detection that combines Random‑Forest classifiers with edge‑deployed Cyber Twins. Each IoT node and its Cyber Twin collaboratively train a local Random‑Forest model using real network traces and synthetically generated attack scenarios; only serialized decision‑trees are uploaded to a central aggregator. The aggregator employs a tree‑selection strategy that retains the most discriminative trees to form a compact global ensemble, eliminating the need for parameter averaging. Experiments on the CIC‑IDS2017 dataset under non‑IID partitions demonstrate that TwinFL‑R achieves 96.7 % accuracy and a 2.1 % false‑positive rate, while reducing communication and computational overhead relative to centralized CNN/RNN and standalone Random‑Forest baselines. The results indicate that the proposed framework enhances detection precision and resilience while minimizing raw data exposure, making it well suited for large‑scale, privacy‑aware IoT deployments.      
 ## Introduction
 
 The number of Internet-of-Things (IoT) devices keeps growing, and so does the attack surface they expose. Most intrusion detection systems (IDS) still follow a centralized design: raw network traffic is sent to a remote server for analysis. For IoT deployments this creates three practical problems: latency and bandwidth cost, exposure of potentially sensitive traffic data, and a single point of failure.
