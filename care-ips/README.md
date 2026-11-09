@@ -32,4 +32,4 @@ CARE-IPS is a framework for turning evidence from several detection agents into 
 
 ## Full manuscript
 
-Available on request: elmirakarimpour@outlook.com
+Available on request: e.elmirakarimpour@gmail.com
